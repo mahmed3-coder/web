@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #2638c4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4556a0;
+}
+/* in the style.css file */
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+  background-color: #2196f3;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.logo {
+  width: 500px;
+}
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20%;
+}
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+  color: blue;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+}
+#createSheetForm {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btnforTab {
+  
+background-color: wheat;
+
+}
+
+.laptopTable {
+  color: black;
+}
